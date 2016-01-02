@@ -1,0 +1,26 @@
+//可以为过长的常量命名
+def "ZYSong18030" @fontZys;
+def Qt::tr @tr;
+//def相当于宏定义，命名用@name表示
+//可以为过长的类名命名
+class QSplitter splitter{
+    //函数前面用function关键字标识
+    function setStretchFactor stretch;
+    function setWindowTitle title;
+    //数据成员前面用property标识
+    property orientation orien;
+    //可以为预定义的c++值命名，也要以@符号开始，并且它有作用域，可以避免重名产生的冲突
+    //以下的def命名只能由QSplitter对象的方法和属性使用
+    def Qt::Horizontal @h;
+    def Qt::Vertical @v;
+    def Qt::Orientation @qo;
+    //class也可以嵌套在另一个class里面，相当于继承
+    class QTextEdit edit{
+        function setAlignment align;
+        def Qt::AlignCenter @center;
+        def Qt::Horizontal_child @h;
+    }
+}
+class QApplication app{
+    function setFont font;
+}

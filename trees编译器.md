@@ -5,7 +5,7 @@
 
 (1) cygwin, MinGw, flex, bison（这些网上的教程很多，就不累述）；
 
-(2) cstl，这是用c写的数据结构和算法的标准库，和c++的stl类似。在windows上安装cstl比较麻烦，所以我另写了一个技术文档[cstl在windows上的安装](http://blog.csdn.net/helloxiyue/article/details/49862789)；
+(2) cstl，这是用c写的数据结构和算法的标准库，和c++的stl类似。在windows上安装cstl比较麻烦，所以我另写了一个技术文档[cstl在windows上的安装](https://github.com/helloxiyue/trees/blob/master/libcstl%E5%9C%A8windows%E5%92%8CVC%E4%B8%8A%E5%AE%89%E8%A3%85.md)；
 
 (3) regex，这是正则的c标准库，可惜windows不支持，可以在[Regex for windows](http://gnuwin32.sourceforge.net/packages/regex.htm)上下载regex的工程包，按照cstl的安装方法进行安装；
 

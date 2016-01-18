@@ -7,10 +7,8 @@ int main(int argc, char *argv[]){
     
         
         a.setFont($font);
-        //行写回行注释
-        
-        //v1.1.2
-        
+        //行写回行注释      
+        //v1.1.2       
         //快写回块注释
         
         

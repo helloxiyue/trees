@@ -9,6 +9,7 @@ int main(int argc, char *argv[]){
         a.setFont($font);
         //行写回行注释
         //origin test
+        //origin out.c test
         //快写回块注释
         
         
